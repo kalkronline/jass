@@ -1,0 +1,17 @@
+{
+  "name": "autoget",
+  "version": "0.0.1",
+  "description": "cron like deal for automatically harvesting images",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js --ext '*'",
+    "test": "node jass/index.js",
+    "testtest": "nodemon jass/index.js --ext '*'"
+  },
+  "author": "fluffiac",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
