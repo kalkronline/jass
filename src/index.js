@@ -5,9 +5,7 @@ function quicksort (collection) {
 
     const pivot = collection[0];
 
-    let left = []
-    let right = []
-    let place = []
+    let left = [], right = [], place = []
 
     for(let i = 0; i < collection.length; i++) {
         if (collection[i] < pivot)
