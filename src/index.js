@@ -1,6 +1,6 @@
 
 function quicksort (collection) {
-    if((collection?.length || 0) < 2)
+    if(collection?.length || 0 < 2)
         return collection;
 
     const pivot = collection[0];
